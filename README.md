@@ -12,4 +12,4 @@
 
 * Training data is 60,000 images of handwritten numbers
 * Grey scale
-[MNIST source](http://yann.lecun.com/exdb/mnist/)
+* [MNIST source](http://yann.lecun.com/exdb/mnist/)
