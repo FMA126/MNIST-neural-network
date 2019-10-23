@@ -1,4 +1,4 @@
-# Neural Network Implemtation Using MNIST Data
+# Neural Network Implementation Using MNIST Data
 
 ## Goals for project
 
