@@ -33,25 +33,25 @@ One hidden layer neural network
 | B | bias |
 | E | error |
 
-Net input for node
+#### Net input for node
 
 net = w1 * i1 + w2 * i2 + ... + wn * in
 
 Output(x) = sigmoid(x) ; where x is the net equation
 
-Sigmoid function (squash)
+#### Sigmoid function (squash)
 
 <span>&sigma;</span> = 1 / (1 + e<sup>-x</sup>)
 
-Error function (squared error)
+#### Error function (squared error)
 
 E<sub>Ototal</sub> = <span style="font-size: 2rem;" >&Sigma;</span> 1/2 (target<sub>O</sub> - output<sub>O</sub>)<sup>2</sup>
 
-Gradient with respect to w
+#### Gradient with respect to w
 
 <span>&part;</span>E<sub>total</sub> / <span>&part;</span>W = <span style="font-size: 2rem;" >(&Sigma;</span> <span>&part;</span>E<sub>total</sub> / <span>&part;</span>out<sub>O</sub> * <span>&part;</span>out<sub>O</sub> / <span>&part;</span>net<sub>O</sub> * <span>&part;</span>net<sub>O</sub> / <span>&part;</span>out<sub>H</sub><span style="font-size: 2rem;" >)</span> <span>&part;</span>out<sub>H</sub> / <span>&part;</span>net<sub>H</sub> * <span>&part;</span>net<sub>H</sub> / <span>&part;</span>W
 
-To update weights:
+#### To update weights:
 
 * <span>&eta;</span> is a learning rate constant
 
